@@ -18,12 +18,21 @@ public class StringLab {
         // String part = statement.substring(5, 7);
         // System.out.println("The extracted substring is: " + part);
 
-        // Prediction: "Uppercase: THIS IS A TEST"
-        // Prediction: "Lowercase: this is a test"
-        String mixedCase = "This Is A Test";
-        String upper = mixedCase.toUpperCase();
-        String lower = mixedCase.toLowerCase();
-        System.out.println("Uppercase: " + upper);
-        System.out.println("Lowercase: " + lower);
+        // // Prediction: "Uppercase: THIS IS A TEST"
+        // // Prediction: "Lowercase: this is a test"
+        // String mixedCase = "This Is A Test";
+        // String upper = mixedCase.toUpperCase();
+        // String lower = mixedCase.toLowerCase();
+        // System.out.println("Uppercase: " + upper);
+        // System.out.println("Lowercase: " + lower);
+
+        // Prediction: 16, 37, -1
+        String sentence = "The quick brown fox jumps over the lazy dog.";
+        int indexOfFox = sentence.indexOf("fox");
+        int indexOfZ = sentence.indexOf('z');
+        int indexOfCat = sentence.indexOf("cat");
+        System.out.println("Index of 'fox': " + indexOfFox);
+        System.out.println("Index of 'z': " + indexOfZ);
+        System.out.println("Index of 'cat': " + indexOfCat);
     }
 }
