@@ -49,10 +49,17 @@ public class StringLab {
         // System.out.println("\"Java\".equalsIgnoreCase(\"java\"): " +
         // isEqualIgnoreCase);
 
-        // Prediction: I like dogs. Cats are cute.
-        String original = "I like cats. Cats are cute.";
-        String replaced = original.replace("cats", "dogs");
-        System.out.println("Original: " + original);
-        System.out.println("Replaced: " + replaced);
+        // // Prediction: I like dogs. Cats are cute.
+        // String original = "I like cats. Cats are cute.";
+        // String replaced = original.replace("cats", "dogs");
+        // System.out.println("Original: " + original);
+        // System.out.println("Replaced: " + replaced);
+
+        // Prediction: "Lots of spaces, 14"
+        String padded = "   Lots of spaces   ";
+        String trimmed = padded.trim();
+        System.out.println("Padded string length: " + padded.length());
+        System.out.println("Trimmed string: '" + trimmed + "'");
+        System.out.println("Trimmed string length: " + trimmed.length());
     }
 }
