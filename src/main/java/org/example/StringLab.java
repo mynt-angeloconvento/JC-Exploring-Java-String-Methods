@@ -55,11 +55,11 @@ public class StringLab {
         // System.out.println("Original: " + original);
         // System.out.println("Replaced: " + replaced);
 
-        // Prediction: "Lots of spaces, 14"
-        String padded = "   Lots of spaces   ";
-        String trimmed = padded.trim();
-        System.out.println("Padded string length: " + padded.length());
-        System.out.println("Trimmed string: '" + trimmed + "'");
-        System.out.println("Trimmed string length: " + trimmed.length());
+        // // Prediction: 20, "Lots of spaces", 14
+        // String padded = "   Lots of spaces   ";
+        // String trimmed = padded.trim();
+        // System.out.println("Padded string length: " + padded.length());
+        // System.out.println("Trimmed string: '" + trimmed + "'");
+        // System.out.println("Trimmed string length: " + trimmed.length());
     }
 }
