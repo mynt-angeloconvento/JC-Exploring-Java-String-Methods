@@ -13,9 +13,17 @@ public class StringLab {
         // char character = message.charAt(5);
         // System.out.println("The character at index 5 is: " + character);
 
-        // Prediction: "is"
-        String statement = "Java is powerful.";
-        String part = statement.substring(5, 7);
-        System.out.println("The extracted substring is: " + part);
+        // // Prediction: "is"
+        // String statement = "Java is powerful.";
+        // String part = statement.substring(5, 7);
+        // System.out.println("The extracted substring is: " + part);
+
+        // Prediction: "Uppercase: THIS IS A TEST"
+        // Prediction: "Lowercase: this is a test"
+        String mixedCase = "This Is A Test";
+        String upper = mixedCase.toUpperCase();
+        String lower = mixedCase.toLowerCase();
+        System.out.println("Uppercase: " + upper);
+        System.out.println("Lowercase: " + lower);
     }
 }
